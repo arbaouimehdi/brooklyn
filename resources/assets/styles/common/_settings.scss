@@ -1,0 +1,40 @@
+
+$global-radius: 5px;
+
+// Colors
+
+$primary-color: #d3b48c;
+$secondary-color: #36393e;
+$success-color: #6dde6d;
+$warning-color: #c43002;
+$alert-color: #F3E538;
+$three-color :#9d9d9d;
+$border-color: #e6e6e6;
+$heading-color: $secondary-color;
+
+$button-color: $secondary-color;
+
+$body-background-color: #fff;
+$body-font-color: #8a8a8a;
+
+// Fonts
+
+$body-font-family: 'LucidaGrande', sans-serif;
+$heading-font-family: 'LucidaGrande', sans-serif;
+$highlight-font-family: 'Playfair Display', serif;
+
+// Grid
+
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+$screen-mb-min: 480px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+$screen-xlg-min: 1824px;
+
+$screen-mb-max:              ($screen-mb-min - 1) !default;
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+$screen-lg-max:              ($screen-xlg-min - 1) !default;

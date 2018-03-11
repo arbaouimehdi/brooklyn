@@ -1,0 +1,16 @@
+/**
+* Settings
+*/
+@import "common/settings";
+
+/** 
+* Import everything from autoload 
+*/
+@import "./autoload/**/*";
+
+/**
+* Layouts 
+*/
+@import "layouts/header";
+@import "layouts/footer";
+
